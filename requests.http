@@ -1,0 +1,14 @@
+### Create a user profile
+POST http://localhost:8080/api/profiles
+Content-Type: application/json
+
+{
+  "name": "Nirbhay",
+  "age": 22,
+  "gender": "Male",
+  "heightCm": 180.0,
+  "weightKg": 64.0,
+  "fitnessGoal": "Muscle Gain",
+  "activityLevel": "Moderately Active",
+  "dietaryPreference": "Vegetarian"
+}
